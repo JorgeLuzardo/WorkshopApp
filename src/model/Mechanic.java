@@ -4,13 +4,11 @@ public class Mechanic {
     private String name;
     private String surname;
 
-    // Constructor
     public Mechanic(String name, String surname) {
         this.name = name;
         this.surname = surname;
     }
 
-    // Getter and Setter methods
     public String getName() {
         return name;
     }
