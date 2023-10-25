@@ -44,12 +44,12 @@ public class Main {
         sparePart1.name = "Neumático";
         sparePart1.price = 50;
         Item item1 = new Item();
-        item1.quantity = 4;
+        item1.setQuantity = 4;
         SparePart sparePart2 = new SparePart();
         sparePart2.name = "Bujías";
         sparePart2.price = 10;
         Item item2 = new Item();
-        item2.quantity = 8;
+        item2.setQuantity = 8;
 
         List<Item> stock = new ArrayList<>();
         stock.add(item1);
