@@ -53,6 +53,16 @@ public class Repair {
         this.breakdownType = breakdownType;
     }
 
+    public String getInfo() {
+        StringBuilder info = new StringBuilder();
+        info.append("Repair ID: ").append(this.id).append("\n");
+        info.append("Date: ").append(this.date).append("\n");
+        info.append("Description: ").append(this.description).append("\n");
+        info.append("Effort: ").append(this.effort).append("\n");
+        info.append("Breakdown Type: ").append(this.breakdownType).append("\n");
+        return info.toString();
+    }
+
     public int price() {
         int basePrice = 150;
         int totalPrice = basePrice + this.effort;
