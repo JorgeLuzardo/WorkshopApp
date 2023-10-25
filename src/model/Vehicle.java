@@ -6,7 +6,6 @@ public class Vehicle {
     private Plate plate;
     private Customer customer;
 
-    // Constructor
     public Vehicle(String make, String model, Plate plate, Customer customer) {
         this.make = make;
         this.model = model;
@@ -14,7 +13,6 @@ public class Vehicle {
         this.customer = customer;
     }
 
-    // Getter and Setter methods
     public String getMake() {
         return make;
     }
